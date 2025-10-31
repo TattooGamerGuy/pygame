@@ -10,6 +10,7 @@ from hub.ui.animation import Easing, Tween, AnimationManager, AnimationState
 from hub.ui.text_input import TextInput
 from hub.ui.slider import Slider
 from hub.ui.progress_bar import ProgressBar
+from hub.ui.tooltip import Tooltip
 
 __all__ = [
     'BaseWidget',
@@ -29,6 +30,7 @@ __all__ = [
     'AnimationState',
     'TextInput',
     'Slider',
-    'ProgressBar'
+    'ProgressBar',
+    'Tooltip'
 ]
 
