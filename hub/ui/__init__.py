@@ -7,6 +7,7 @@ from hub.ui.container import Container, VContainer, HContainer, GridContainer
 from hub.ui.layout import LayoutManager, LayoutConstraints
 from hub.ui.theme import Theme, ThemeManager
 from hub.ui.animation import Easing, Tween, AnimationManager, AnimationState
+from hub.ui.text_input import TextInput
 
 __all__ = [
     'BaseWidget',
@@ -23,6 +24,7 @@ __all__ = [
     'Easing',
     'Tween',
     'AnimationManager',
-    'AnimationState'
+    'AnimationState',
+    'TextInput'
 ]
 
