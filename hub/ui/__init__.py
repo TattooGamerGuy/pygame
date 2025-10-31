@@ -9,6 +9,7 @@ from hub.ui.theme import Theme, ThemeManager
 from hub.ui.animation import Easing, Tween, AnimationManager, AnimationState
 from hub.ui.text_input import TextInput
 from hub.ui.slider import Slider
+from hub.ui.progress_bar import ProgressBar
 
 __all__ = [
     'BaseWidget',
@@ -27,6 +28,7 @@ __all__ = [
     'AnimationManager',
     'AnimationState',
     'TextInput',
-    'Slider'
+    'Slider',
+    'ProgressBar'
 ]
 
