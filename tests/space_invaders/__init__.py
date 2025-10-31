@@ -1,0 +1,2 @@
+"""Space Invaders test suite."""
+

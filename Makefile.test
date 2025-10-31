@@ -1,0 +1,37 @@
+.PHONY: test test-unit test-integration test-cov test-watch
+
+# Run all tests
+test:
+	pytest tests/ -v
+
+# Run unit tests only
+test-unit:
+	pytest tests/ -v -m "not integration"
+
+# Run integration tests only
+test-integration:
+	pytest tests/ -v -m integration
+
+# Run with coverage
+test-cov:
+	pytest tests/ -v --cov=hub/games/space_invaders --cov-report=html --cov-report=term
+
+# Watch mode (requires pytest-watch)
+test-watch:
+	ptw tests/ -- -v
+
+# Run specific test file
+test-file:
+	pytest $(FILE) -v
+
+# Run tests matching pattern
+test-match:
+	pytest tests/ -v -k $(PATTERN)
+
+# Clean test artifacts
+test-clean:
+	rm -rf .pytest_cache
+	rm -rf htmlcov
+	rm -rf .coverage
+	rm -rf coverage.xml
+

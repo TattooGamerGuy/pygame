@@ -1,0 +1,32 @@
+"""Constants for Space Invaders game."""
+
+ENEMY_ROWS = 5
+ENEMY_COLS = 10
+ENEMY_SPACING_X = 50
+ENEMY_SPACING_Y = 40
+ENEMY_START_Y = 100
+
+PLAYER_SPEED = 300
+ENEMY_SPEED = 50
+PLAYER_BULLET_SPEED = 400
+ENEMY_BULLET_SPEED = 200
+UFO_SPEED = 100
+
+ENEMY_MOVE_INTERVAL = 1.0
+ENEMY_SHOOT_INTERVAL = 1.5
+
+# Scoring - based on enemy type
+ENEMY_TYPE1_SCORE = 30  # Top row
+ENEMY_TYPE2_SCORE = 20  # Middle rows
+ENEMY_TYPE3_SCORE = 10  # Bottom rows
+WAVE_CLEAR_BONUS = 1000
+
+# Lives
+STARTING_LIVES = 3
+
+# Shield configuration
+SHIELD_COUNT = 4
+SHIELD_WIDTH = 80
+SHIELD_HEIGHT = 60
+SHIELD_Y = 500  # Y position for shields
+
