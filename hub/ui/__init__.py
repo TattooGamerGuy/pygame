@@ -14,6 +14,7 @@ from hub.ui.tooltip import Tooltip
 from hub.ui.dropdown import Dropdown
 from hub.ui.modal import Modal
 from hub.ui.notification import Notification, NotificationManager
+from hub.ui.layout_advanced import FlexLayout, GridLayout, AutoLayout, LayoutConstraints
 
 __all__ = [
     'BaseWidget',
@@ -38,6 +39,10 @@ __all__ = [
     'Dropdown',
     'Modal',
     'Notification',
-    'NotificationManager'
+    'NotificationManager',
+    'FlexLayout',
+    'GridLayout',
+    'AutoLayout',
+    'LayoutConstraints'
 ]
 
