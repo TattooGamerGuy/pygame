@@ -8,6 +8,7 @@ from hub.ui.layout import LayoutManager, LayoutConstraints
 from hub.ui.theme import Theme, ThemeManager
 from hub.ui.animation import Easing, Tween, AnimationManager, AnimationState
 from hub.ui.text_input import TextInput
+from hub.ui.slider import Slider
 
 __all__ = [
     'BaseWidget',
@@ -25,6 +26,7 @@ __all__ = [
     'Tween',
     'AnimationManager',
     'AnimationState',
-    'TextInput'
+    'TextInput',
+    'Slider'
 ]
 
