@@ -13,6 +13,7 @@ from hub.ui.progress_bar import ProgressBar
 from hub.ui.tooltip import Tooltip
 from hub.ui.dropdown import Dropdown
 from hub.ui.modal import Modal
+from hub.ui.notification import Notification, NotificationManager
 
 __all__ = [
     'BaseWidget',
@@ -35,6 +36,8 @@ __all__ = [
     'ProgressBar',
     'Tooltip',
     'Dropdown',
-    'Modal'
+    'Modal',
+    'Notification',
+    'NotificationManager'
 ]
 
