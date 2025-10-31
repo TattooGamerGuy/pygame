@@ -11,6 +11,7 @@ from hub.ui.text_input import TextInput
 from hub.ui.slider import Slider
 from hub.ui.progress_bar import ProgressBar
 from hub.ui.tooltip import Tooltip
+from hub.ui.dropdown import Dropdown
 
 __all__ = [
     'BaseWidget',
@@ -31,6 +32,7 @@ __all__ = [
     'TextInput',
     'Slider',
     'ProgressBar',
-    'Tooltip'
+    'Tooltip',
+    'Dropdown'
 ]
 
