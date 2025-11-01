@@ -15,6 +15,14 @@ from hub.ui.dropdown import Dropdown
 from hub.ui.modal import Modal
 from hub.ui.notification import Notification, NotificationManager
 from hub.ui.layout_advanced import FlexLayout, GridLayout, AutoLayout, LayoutConstraints
+from hub.ui.accessibility import (
+    AccessibilityManager,
+    FocusManager,
+    KeyboardNavigator,
+    ScreenReader,
+    HighContrastTheme,
+    get_accessibility_manager
+)
 
 __all__ = [
     'BaseWidget',
@@ -43,6 +51,12 @@ __all__ = [
     'FlexLayout',
     'GridLayout',
     'AutoLayout',
-    'LayoutConstraints'
+    'LayoutConstraints',
+    'AccessibilityManager',
+    'FocusManager',
+    'KeyboardNavigator',
+    'ScreenReader',
+    'HighContrastTheme',
+    'get_accessibility_manager'
 ]
 
